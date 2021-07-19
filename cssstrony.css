@@ -200,7 +200,7 @@ body::-webkit-scrollbar-thumb {
         text-align: center;
         vertical-align: middle;
         position: relative;
-        background-image: url(/background-modals.svg);
+        background-image: url(png/background-modals.svg);
         background-position: center;
         -webkit-transition: all .5s ease;
         -moz-transition: all .5s ease;
@@ -439,7 +439,7 @@ body::-webkit-scrollbar-thumb {
         height: 250px;
         padding-top: 40px;
         position: relative;
-        background-image: url(/background-modals.svg);
+        background-image: url(png/background-modals.svg);
         background-position: center;
         -webkit-transition: all .5s ease;
         -moz-transition: all .5s ease;
@@ -711,7 +711,7 @@ body::-webkit-scrollbar-thumb {
         height: 360px;
         padding-top: 80px;
         position: relative;
-        background-image: url(/background-modals.svg);
+        background-image: url(png/background-modals.svg);
         background-position: center;
         -webkit-transition: all .5s ease;
         -moz-transition: all .5s ease;
