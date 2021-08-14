@@ -275,7 +275,7 @@ body::-webkit-scrollbar-thumb:hover {
         vertical-align: middle;
         position: relative;
         border: 1px solid #2E2E2E;
-        background-image: url(grafiki/background-modals.svg);
+        background-image: url(png/background-modals.svg);
         background-position: center;
         -webkit-transition: all .5s ease;
         -moz-transition: all .5s ease;
@@ -535,7 +535,7 @@ body::-webkit-scrollbar-thumb:hover {
         height: 250px;
         padding-top: 40px;
         position: relative;
-        background-image: url(grafiki/background-modals.svg);
+        background-image: url(png/background-modals.svg);
         background-position: center;
         -webkit-transition: all .5s ease;
         -moz-transition: all .5s ease;
@@ -857,7 +857,7 @@ body::-webkit-scrollbar-thumb:hover {
     .box-info:hover {
         opacity: 1;
         border: 1px solid white;
-        background-image: url(grafiki/background-modals.svg);
+        background-image: url(png/background-modals.svg);
     }
     .top-project, .bottom-project {
         opacity: 0.3;
