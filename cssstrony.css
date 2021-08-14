@@ -66,7 +66,16 @@ body::-webkit-scrollbar-thumb:hover {
 .preload .circle:nth-child(4) {
     animation-delay: -0.3s;
 }
-
+@keyframes TransitionArrow {
+    0% {
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
 @keyframes arrowDown {
     0% {
         transform: translateY(10px);
@@ -176,7 +185,7 @@ body::-webkit-scrollbar-thumb:hover {
     .arrow-circle {
         margin-top: 20px;
         margin-bottom: 60px;
-        animation: arrowDown 2s infinite, transitionIn 1.2s;
+        animation: arrowDown 2s infinite, TransitionArrow 1.3s;
     }
     #aboutme {
         opacity: 0;
